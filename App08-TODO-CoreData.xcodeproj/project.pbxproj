@@ -8,22 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		873BB393271DBC6B00E05082 /* App08_TODO_CoreDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873BB392271DBC6B00E05082 /* App08_TODO_CoreDataApp.swift */; };
-		873BB395271DBC6B00E05082 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873BB394271DBC6B00E05082 /* ContentView.swift */; };
+		873BB395271DBC6B00E05082 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873BB394271DBC6B00E05082 /* TaskListView.swift */; };
 		873BB397271DBC6C00E05082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 873BB396271DBC6C00E05082 /* Assets.xcassets */; };
 		873BB39A271DBC6C00E05082 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 873BB399271DBC6C00E05082 /* Preview Assets.xcassets */; };
 		873BB39C271DBC6C00E05082 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873BB39B271DBC6C00E05082 /* Persistence.swift */; };
 		873BB39F271DBC6C00E05082 /* App08_TODO_CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 873BB39D271DBC6C00E05082 /* App08_TODO_CoreData.xcdatamodeld */; };
+		873BB3AE271DC19800E05082 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873BB3A8271DC19800E05082 /* Category+CoreDataClass.swift */; };
+		873BB3AF271DC19800E05082 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873BB3A9271DC19800E05082 /* Category+CoreDataProperties.swift */; };
+		873BB3B0271DC19800E05082 /* Task+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873BB3AA271DC19800E05082 /* Task+CoreDataClass.swift */; };
+		873BB3B1271DC19800E05082 /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873BB3AB271DC19800E05082 /* Task+CoreDataProperties.swift */; };
+		873BB3B2271DC19800E05082 /* Priority+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873BB3AC271DC19800E05082 /* Priority+CoreDataClass.swift */; };
+		873BB3B3271DC19800E05082 /* Priority+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873BB3AD271DC19800E05082 /* Priority+CoreDataProperties.swift */; };
+		873BB3B7271DC5FB00E05082 /* TaskDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873BB3B6271DC5FB00E05082 /* TaskDetailView.swift */; };
+		873BB3BA271DDD0500E05082 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873BB3B9271DDD0500E05082 /* Enums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		873BB38F271DBC6B00E05082 /* App08-TODO-CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App08-TODO-CoreData.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		873BB392271DBC6B00E05082 /* App08_TODO_CoreDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App08_TODO_CoreDataApp.swift; sourceTree = "<group>"; };
-		873BB394271DBC6B00E05082 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		873BB394271DBC6B00E05082 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
 		873BB396271DBC6C00E05082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		873BB399271DBC6C00E05082 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		873BB39B271DBC6C00E05082 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		873BB39E271DBC6C00E05082 /* App08_TODO_CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = App08_TODO_CoreData.xcdatamodel; sourceTree = "<group>"; };
 		873BB3A0271DBC6C00E05082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		873BB3A8271DC19800E05082 /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = "<group>"; };
+		873BB3A9271DC19800E05082 /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		873BB3AA271DC19800E05082 /* Task+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataClass.swift"; sourceTree = "<group>"; };
+		873BB3AB271DC19800E05082 /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		873BB3AC271DC19800E05082 /* Priority+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Priority+CoreDataClass.swift"; sourceTree = "<group>"; };
+		873BB3AD271DC19800E05082 /* Priority+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Priority+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		873BB3B6271DC5FB00E05082 /* TaskDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailView.swift; sourceTree = "<group>"; };
+		873BB3B9271DDD0500E05082 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +72,14 @@
 		873BB391271DBC6B00E05082 /* App08-TODO-CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				873BB3A7271DC14000E05082 /* Models */,
 				873BB392271DBC6B00E05082 /* App08_TODO_CoreDataApp.swift */,
-				873BB394271DBC6B00E05082 /* ContentView.swift */,
+				873BB394271DBC6B00E05082 /* TaskListView.swift */,
+				873BB3B6271DC5FB00E05082 /* TaskDetailView.swift */,
+				873BB3B9271DDD0500E05082 /* Enums.swift */,
 				873BB396271DBC6C00E05082 /* Assets.xcassets */,
 				873BB39B271DBC6C00E05082 /* Persistence.swift */,
 				873BB3A0271DBC6C00E05082 /* Info.plist */,
-				873BB39D271DBC6C00E05082 /* App08_TODO_CoreData.xcdatamodeld */,
 				873BB398271DBC6C00E05082 /* Preview Content */,
 			);
 			path = "App08-TODO-CoreData";
@@ -73,6 +91,20 @@
 				873BB399271DBC6C00E05082 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		873BB3A7271DC14000E05082 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				873BB3A8271DC19800E05082 /* Category+CoreDataClass.swift */,
+				873BB3A9271DC19800E05082 /* Category+CoreDataProperties.swift */,
+				873BB3AA271DC19800E05082 /* Task+CoreDataClass.swift */,
+				873BB3AB271DC19800E05082 /* Task+CoreDataProperties.swift */,
+				873BB3AC271DC19800E05082 /* Priority+CoreDataClass.swift */,
+				873BB3AD271DC19800E05082 /* Priority+CoreDataProperties.swift */,
+				873BB39D271DBC6C00E05082 /* App08_TODO_CoreData.xcdatamodeld */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,8 +177,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				873BB39F271DBC6C00E05082 /* App08_TODO_CoreData.xcdatamodeld in Sources */,
+				873BB3AF271DC19800E05082 /* Category+CoreDataProperties.swift in Sources */,
+				873BB3B0271DC19800E05082 /* Task+CoreDataClass.swift in Sources */,
+				873BB3B7271DC5FB00E05082 /* TaskDetailView.swift in Sources */,
 				873BB39C271DBC6C00E05082 /* Persistence.swift in Sources */,
-				873BB395271DBC6B00E05082 /* ContentView.swift in Sources */,
+				873BB395271DBC6B00E05082 /* TaskListView.swift in Sources */,
+				873BB3B3271DC19800E05082 /* Priority+CoreDataProperties.swift in Sources */,
+				873BB3B2271DC19800E05082 /* Priority+CoreDataClass.swift in Sources */,
+				873BB3AE271DC19800E05082 /* Category+CoreDataClass.swift in Sources */,
+				873BB3B1271DC19800E05082 /* Task+CoreDataProperties.swift in Sources */,
+				873BB3BA271DDD0500E05082 /* Enums.swift in Sources */,
 				873BB393271DBC6B00E05082 /* App08_TODO_CoreDataApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
